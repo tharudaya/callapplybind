@@ -19,14 +19,14 @@ call method is use to combine the method with object. function.call(Obj) method 
 ### Apply
 Apply method is also similar to the call method. The only difference is with apply method we are parsing rest of the parameters as an array to the apply method. We can use this method if we don’t know the number arguments we should pass to the method.
 
-![Alt text](/images/apply.PNG.PNG?raw=true "Optional Title")
+![Alt text](/images/apply.PNG?raw=true "Optional Title")
 
 Above both methods will return the same result. Lets see how bind method works now
 
 ### Bind
 Bind method is also similar to the call method. The difference is it’s not invoking immediately just after we declare the method. It is use for storing the method for later use. We can use bind method to execute the function as per our requirements.
 
-![Alt text](/images/bind.PNG.PNG?raw=true "Optional Title")
+![Alt text](/images/bind.PNG?raw=true "Optional Title")
 
 ### Summary
 So the call, apply and bind methods are use to deal with object methods and functions. These methods are useful for access different objects with common methods. It is passing arguments as single items to call method and as array to apply method. The bind method is similar but it is use to store the function for later use.
